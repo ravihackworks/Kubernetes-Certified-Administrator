@@ -27,5 +27,8 @@ Also, you may bookmark kubernetes documentation. This will surely help you in se
 
 66% marks are needed to pass this certification.
 
+## Additional Query/support needed - Join Slack Channel 
+https://join.slack.com/t/hackworksworkspace/shared_invite/zt-10y3aqyb7-Ij7rhYpUuDYBSGH~fmSzZQ
+
 
 
