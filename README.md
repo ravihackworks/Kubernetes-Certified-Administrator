@@ -7,7 +7,7 @@
   <img width="450" src="CKA.jpeg">
 </p>
 
-I have prepared the online resources that will 100% help you in preparation to take the Certified Kubernetes Administrator (CKA) certification exam. These resources are collected based on the exam experience. 
+I have prepared the online resources that will 100% help you in preparation to take the Certified Kubernetes Administrator (CKA) certification exam. These resources are collected based on the exam experience. It doesn't give you the guarantee that these questions would be in your exam as well. But it definitely help you in building context and the background.
 
 ## CKA 2022 Exam Curriculum
 
