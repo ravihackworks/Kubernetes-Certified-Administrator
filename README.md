@@ -11,7 +11,7 @@ I have prepared the online resources that will 100% help you in preparation to t
 
 ## CKA 2022 Exam Curriculum
 
-I strongly recommend you to review and understand the exam objectives.
+The Certification focuses on the skills required to be a successful Kubernetes Administrator in industry today. This includes these general domains and their weights on the exam:
 
 | Domain                                             | Weight |
 |----------------------------------------------------|--------|
@@ -21,6 +21,7 @@ I strongly recommend you to review and understand the exam objectives.
 | Storage                                            | 10%    |
 | Troubleshooting                                    | 30%    |
 
+So, it is strongly recommended that you must review and understand the exam objectives.
 * [CNCF Exam Curriculum repository ](https://github.com/cncf/curriculum)
 
 ## About the Exam
