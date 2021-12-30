@@ -2,6 +2,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Kubernetes-Certified-Administrator -  CKA
+
+<p align="center">
+  <img width="450" src="CKA.jpeg">
+</p>
+
 I have prepared the online resources that will 100% help you in preparation to take the Certified Kubernetes Administrator (CKA) certification exam. These resources are collected based on the exam experience. 
 
 ## CKA 2022 Exam Curriculum
