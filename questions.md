@@ -1,3 +1,7 @@
+## Disclaimer
+  These are the questions based on my experience. I don't take any guarantee that these questions would come in you exam as well :)
+  But I strongly recommend that you must do hands-on for these questions before sitting in your CKA exam.
+
 ## Question : 1
 
   Use context: **kubectl config use-context k8s-etcd-context**
