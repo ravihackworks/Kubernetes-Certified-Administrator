@@ -1,7 +1,7 @@
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# Kubernetes-Certified-Administrator -  CKA
+# Kubernetes-Certified-Administrator (CKA) - 2022
 
 <p align="center">
   <img width="450" src="CKA.jpeg">
