@@ -39,5 +39,10 @@ Also, you may bookmark kubernetes documentation. This will surely help you in se
 ## Additional Query/support needed - Join Slack Channel 
 https://join.slack.com/t/hackworksworkspace/shared_invite/zt-10y3aqyb7-Ij7rhYpUuDYBSGH~fmSzZQ
 
+## Can I raise pull request (PR) ? There is an error/an alternative way/an extra question/solution I can offer ?
 
+Absolutely ! Feel free to raise pull request (PR) and edit/add questions and solutions, but please stick to the existing format.
 
+If this repo has helped you in any way, feel free to post on [discussions](https://github.com/ravihackworks/Kubernetes-Certified-Administrator/discussions) or buy me a coffee!
+
+<a href="https://www.buymeacoffee.com/ravihackworks" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
