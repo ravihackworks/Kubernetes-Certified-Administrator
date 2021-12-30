@@ -1,6 +1,6 @@
 ## Disclaimer
-  These are the questions based on my experience. I don't take any guarantee that these questions would come in you exam as well :)
-  But I strongly recommend that you must do hands-on for these questions before sitting in your CKA exam.
+  These are the questions based on the experience. There is no guarantee that these questions would come in you exam as well :)
+  But It is strongly recommended that you must do hands-on for these questions before sitting in your CKA exam.
 
 ## Question : 1
 
