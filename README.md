@@ -11,7 +11,15 @@ I have prepared the online resources that will 100% help you in preparation to t
 
 ## CKA 2022 Exam Curriculum
 
-I strongly recommend you to review and understand the exam objectives. 
+I strongly recommend you to review and understand the exam objectives.
+
+| Domain                                             | Weight |
+|----------------------------------------------------|--------|
+| Cluster Architecture, Installation & Configuration | 25%    |
+| Workloads & Scheduling                             | 15%    |
+| Services & Networking                              | 20%    |
+| Storage                                            | 10%    |
+| Troubleshooting                                    | 30%    |
 
 * [CNCF Exam Curriculum repository ](https://github.com/cncf/curriculum)
 
