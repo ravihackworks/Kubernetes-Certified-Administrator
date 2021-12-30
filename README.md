@@ -17,11 +17,11 @@ I strongly recommend you to review and understand the exam objectives.
 
 ## About the Exam
 
-The CKA is not a multiple choice question, that is, it is not possible to choose a random answer or to choose the least wrong answer. The CKA is a practical exam where you are given 17 problems to solve within 2 hours. You can go from one problem to the other and you can flag them to come back to them later if you're not sure of the answer.
+The CKA is not a multiple choice question, that is, it is not possible to choose a random answer or to choose the least wrong answer. The CKA is a practical exam where you are given 17 problems to solve within 2 hours. You can go from one problem to the other and you can flag them to come back to them later if you're not sure of the answer. Refer - https://www.cncf.io/certification/cka/ for more details.
 
 It is recommeded that you must start your exam before 15 minutes. Protector checks your room, desk etc where you are sitting. Also, don't wear smart watch or any other electronics device. You can use external monitor along with your laptop. 
 
-Also, you may bookmark kubernetes documentation. This will surely help you in searching some YAML/imperative commands. I can provide my bookmarks if you needed, send me email to ravi.hackworks@gmail.com
+Also, you may bookmark kubernetes documentation. This will surely help you in searching some YAML/imperative commands. I can provide my bookmarks if you needed, join slack for the additional queries.
 
 ## Passing Score
 
