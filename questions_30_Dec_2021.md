@@ -61,3 +61,49 @@ Create  multi container  pod  kucc4 with below information :
 **Note:**
 1. Kubernetes documentation - https://kubernetes.io/docs/concepts/workloads/pods/#using-pods
 2. You can generate pod template by kubectl run kucc4 --image=nginx --dry-run -o yaml > 3.yaml and then edit yaml as per need.
+
+
+## Question : 4
+
+  Use context: **kubectl config use-context k8s-cluster7-context**
+  Schedule pod for node (disk = ssd)
+    Name: nginx  
+    image: nginx
+    
+**Solution :**   
+
+1. kubectl config use-context k8s-cluster7-context
+2. Create below pod specification
+   apiVersion: v1
+   kind: Pod
+   metadata:
+     name: nginx
+   spec:
+     containers:
+     - name: nginx
+       image: nginx
+       imagePullPolicy: IfNotPresent
+     nodeSelector:
+       disk: ssd
+
+**Note:**
+  1. Kubernetes documentation - https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector 
+  2. Label already mentioned on node, you don't required to add.
+  3. kubectl apply -f <pod_spec.yaml>
+  4. kubectl get pods -o wide. Now you may confirm that your pod must be in running condition on that node where label is same.
+  5. To check label on node, kubectl get nodes <node_name> --show-labels
+
+## Question : 5
+
+  Use context: **kubectl config use-context k8s-cluster8-context**
+  Scale the deploymet webserver to 5 pods
+  
+**Solution :**   
+1. kubectl config use-context k8s-cluster8-context  
+2. Check deployment is deployed or not by command - kubectl get deployments 
+3. kubectl  scale --replicas=5 deployment webserver
+
+**Note:**
+  
+  1. Kubernetes documentation - https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale
+  2. Deployment webserver already deployed in your default namespace. Only you have to scale. 
