@@ -107,3 +107,49 @@ Create  multi container  pod  kucc4 with below information :
   
   1. Kubernetes documentation - https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale
   2. Deployment webserver already deployed in your default namespace. Only you have to scale. 
+
+## Question : 6
+
+Use context: **kubectl config use-context k8s-cluster8-context**
+There is a node that is  not ready state. You have to identify the cause of failure, then fix the problem.
+Also verify node is now in ready state.
+
+**Solution :**  
+1. kubectl config use-context **k8s-cluster8-context**  
+2. ssh k8s-node01
+3. sudo -i
+4. Check all k8s components are up and running on this node.
+5. Problem is kubelet is not running. (Check systemctl status kubelet)
+6. systemctl enable kubelet
+7. systemctl daemon-reload
+8.  systemctl restart kubelet
+9.  Now check status for kubelet again (systemctl status kubelet)
+10.  exit from node
+11.  Now check kubectl get nodes
+
+**Note:**
+1. There was no issue in kubelet configuration. 
+2. Only issue was kubelet not running.
+
+## Question : 7
+In this question, you have to identify the high cpu pod name which are having label **name=cpu-utilizer** and then save into file /opt/KUTR00401/KUTROO401.txt.
+**Solution :**  
+kubectl top pods -l name=cpu-utilizer --sort-by=cpu --no-headers | cut -f1 -d" "" | head -n1 > /opt/KUTR00401/KUTROO401.txt
+
+## Question : 8
+List the noSchedule taints for cluster nodes and count the nodes.
+**Solution :**  
+kubectl get nodes -o jsonpath="{range.items[*]} {.metadata.name} {.spec.taints[].effect} {\"\n\"}" | grep -v NoSchedule | wc -l
+
+## Question : 9
+Create a new ClusteRole name deployment-clusterrole , which only allows to create the following resources types - deployment,statefulSet,Daemonset
+Create a new ServiceAccount named cicd-tocken in the existing namespace app-team
+bind the new clisterrole deplyment-clusterrole to the new service account cicd-tocken limited to the namespace app-team
+**Solution :**
+kubectl create clusterrole deployment-clusterrole --verb=create --resource=Deployment,StatefulSet,DaemonSet
+kubectl create sa cicd-tocken --namespace=app-team
+kubectl create clusterrolebinding deployment-bind --clusterrole=deployment-clusterrole --serviceaccount=app-team:cicd-tocken
+**Note:**
+1. Kubernetes documentation - https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/
+2. Kubernetes imperative command - https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-clusterrole-em-
+
